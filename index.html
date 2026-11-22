@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VELOCITY EXOTICS — Where Performance Meets Prestige</title>
+    <meta
+      name="description"
+      content="VELOCITY EXOTICS — Discover an exclusive collection of the world's most extraordinary supercars. Where performance meets prestige."
+    />
+    <meta property="og:title" content="VELOCITY EXOTICS — Where Performance Meets Prestige" />
+    <meta
+      property="og:description"
+      content="Discover an exclusive collection of the world's most extraordinary supercars. Experience automotive excellence, exceptional craftsmanship, and uncompromising performance."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Sticky Navigation Bar -->
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand-lockup" aria-label="Velocity Exotics Home">
+          <img
+            src="img/logo.png"
+            alt="Velocity Exotics Emblem"
+            class="brand-logo"
+            width="34"
+            height="32"
+          />
+          <span class="brand-wordmark">VELOCITY EXOTICS</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <a href="#home" class="nav-link active" data-section="home">Home</a>
+          <a href="#inventory" class="nav-link" data-section="inventory">Inventory</a>
+          <a href="#brands" class="nav-link" data-section="brands">Brands</a>
+          <a href="#featured" class="nav-link" data-section="featured">Featured</a>
+          <a href="#about" class="nav-link" data-section="about">About Us</a>
+          <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#inventory" class="btn btn-primary header-cta">EXPLORE COLLECTION</a>
+          <button
+            type="button"
+            class="mobile-menu-toggle"
+            id="mobile-menu-toggle"
+            aria-label="Open Navigation Menu"
+            aria-expanded="false"
+            aria-controls="mobile-drawer"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+        <nav class="mobile-nav-list" aria-label="Mobile Navigation">
+          <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+          <a href="#inventory" class="mobile-nav-link" data-section="inventory">Inventory</a>
+          <a href="#brands" class="mobile-nav-link" data-section="brands">Brands</a>
+          <a href="#featured" class="mobile-nav-link" data-section="featured">Featured</a>
+          <a href="#compare" class="mobile-nav-link" data-section="compare">Compare</a>
+          <a href="#about" class="mobile-nav-link" data-section="about">About Us</a>
+          <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+          <a href="#inventory" class="btn btn-primary mobile-drawer-cta">EXPLORE COLLECTION</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- 1. Hero Section -->
+      <section class="hero-section" id="home">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="img/hero-supercar.jpg"
+            alt="Matte black exotic supercar inside Velocity Exotics dark architectural gallery"
+            class="hero-bg-img"
+            referrerpolicy="no-referrer"
+          />
+          <div class="hero-scrim"></div>
+        </div>
+
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <div class="hero-kicker-wrap">
+              <span class="gold-rule" aria-hidden="true"></span>
+              <p class="hero-tagline">WHERE PERFORMANCE MEETS PRESTIGE.</p>
+            </div>
+            <h1 class="hero-title">ENGINEERED TO EXCITE.</h1>
+            <p class="hero-subtitle">
+              Discover an exclusive collection of the world's most extraordinary supercars.
+              Experience automotive excellence, exceptional craftsmanship, and uncompromising
+              performance.
+            </p>
+            <div class="hero-actions">
+              <a href="#inventory" class="btn btn-primary">EXPLORE COLLECTION</a>
+              <a href="#about" class="btn btn-outline">DISCOVER OUR BRAND</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#featured" class="scroll-indicator" aria-label="Scroll to Featured Supercars">
+          <span class="scroll-label">Scroll to Explore</span>
+          <span class="scroll-line" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <!-- 2. Featured Supercars Section -->
+      <section class="section section-dark" id="featured">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-header-text">
+              <span class="section-kicker">Curated Flagships</span>
+              <h2 class="section-title">THE EXCLUSIVE COLLECTION</h2>
+              <p class="section-subtitle">Exceptional machines. Extraordinary experiences.</p>
+            </div>
+            <div class="section-header-actions">
+              <button
+                type="button"
+                class="btn btn-subtle"
+                id="open-favorites-btn-top"
+                aria-label="Open Saved Favorites"
+              >
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                <span>Saved Favorites (<span class="favorites-count-value">0</span>)</span>
+              </button>
+              <a href="#inventory" class="btn btn-outline">Full 12-Car Inventory</a>
+            </div>
+          </div>
+
+          <div class="vehicle-grid" id="featured-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- 3. Dedicated Interactive Inventory Section -->
+      <section class="section section-charcoal" id="inventory">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-header-text">
+              <span class="section-kicker">Showroom Selection</span>
+              <h2 class="section-title">THE COMPLETE INVENTORY</h2>
+              <p class="section-subtitle">
+                Search, filter, and inspect every curated automobile in the Velocity Exotics portfolio.
+              </p>
+            </div>
+            <div class="section-header-actions">
+              <button
+                type="button"
+                class="btn btn-subtle"
+                id="open-favorites-btn"
+                aria-label="View Saved Favorites Drawer"
+              >
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                <span>Favorites (<span class="favorites-count-value">0</span>)</span>
+              </button>
+              <a href="#compare" class="btn btn-subtle">Compare Models</a>
+            </div>
+          </div>
+
+          <!-- Filter & Search Controls -->
+          <div class="inventory-controls reveal" role="region" aria-label="Inventory Filters">
+            <div class="controls-row">
+              <div class="control-group control-search">
+                <label for="search-input" class="control-label">Search Vehicle</label>
+                <div class="input-with-icon">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <input
+                    type="search"
+                    id="search-input"
+                    class="form-input"
+                    placeholder="Search by model or marque (e.g. Revuelto, Chiron)..."
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+
+              <div class="control-group">
+                <label for="brand-filter" class="control-label">Manufacturer</label>
+                <select id="brand-filter" class="form-select">
+                  <option value="all">All Brands</option>
+                  <option value="Ferrari">Ferrari</option>
+                  <option value="Lamborghini">Lamborghini</option>
+                  <option value="McLaren">McLaren</option>
+                  <option value="Bugatti">Bugatti</option>
+                  <option value="Porsche">Porsche</option>
+                  <option value="Aston Martin">Aston Martin</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="category-filter" class="control-label">Category</label>
+                <select id="category-filter" class="form-select">
+                  <option value="all">All Categories</option>
+                  <option value="Hypercars">Hypercars</option>
+                  <option value="Supercars">Supercars</option>
+                  <option value="Luxury Sports Cars">Luxury Sports Cars</option>
+                  <option value="Track-Focused Cars">Track-Focused Cars</option>
+                  <option value="Grand Tourers">Grand Tourers</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="price-filter" class="control-label">Indicative Price Range</label>
+                <select id="price-filter" class="form-select">
+                  <option value="all">All Prices</option>
+                  <option value="under-300k">Under $300,000</option>
+                  <option value="300k-650k">$300,000 – $650,000</option>
+                  <option value="over-1m">$1,000,000+</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="sort-filter" class="control-label">Sort Order</label>
+                <select id="sort-filter" class="form-select">
+                  <option value="featured">Curated Order</option>
+                  <option value="price-asc">Price: Low to High</option>
+                  <option value="price-desc">Price: High to Low</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="controls-meta-bar">
+              <p class="results-count" id="results-count" aria-live="polite">
+                Showing 12 of 12 vehicles
+              </p>
+              <button type="button" class="btn-text-reset" id="reset-filters-btn">
+                Reset All Filters
+              </button>
+            </div>
+          </div>
+
+          <div class="vehicle-grid" id="inventory-grid" aria-live="polite"></div>
+
+          <div class="empty-state hidden" id="inventory-empty-state">
+            <h3 class="empty-state-title">No Matching Vehicles Found</h3>
+            <p class="empty-state-copy">
+              No models in our current collection match your selected filters. Reset your criteria
+              to view all 12 supercars.
+            </p>
+            <button type="button" class="btn btn-outline" id="empty-reset-btn">
+              Reset Filters
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Automotive Brands Showcase -->
+      <section class="section section-dark" id="brands">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-header-text">
+              <span class="section-kicker">Marques of Distinction</span>
+              <h2 class="section-title">AUTOMOTIVE BRANDS</h2>
+              <p class="section-subtitle">
+                Select an iconic manufacturer to filter the collection directly.
+              </p>
+            </div>
+          </div>
+
+          <div class="brands-grid" id="brands-grid"></div>
+        </div>
+      </section>
+
+      <!-- 5. Exclusive Experience Cinematic Banner -->
+      <section class="experience-banner" aria-label="Exclusive Experience">
+        <div class="experience-media" aria-hidden="true">
+          <img
+            src="img/experience.jpg"
+            alt="Carbon-fiber hypercar rear profile illuminated under warm architectural gallery strip lighting"
+            class="experience-bg-img"
+            referrerpolicy="no-referrer"
+          />
+          <div class="experience-scrim"></div>
+        </div>
+
+        <div class="container experience-content reveal">
+          <span class="gold-rule gold-rule-centered" aria-hidden="true"></span>
+          <h2 class="experience-title">MORE THAN A MACHINE. IT'S A STATEMENT.</h2>
+          <p class="experience-copy">
+            Every vehicle represents a unique combination of engineering, artistry, innovation, and
+            performance. Explore machines built to create unforgettable driving experiences.
+          </p>
+          <a href="#contact" class="btn btn-primary">ARRANGE A PRIVATE INQUIRY</a>
+        </div>
+      </section>
+
+      <!-- 6. Why Choose Velocity Exotics -->
+      <section class="section section-charcoal" id="why-choose">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-header-text">
+              <span class="section-kicker">The Standard</span>
+              <h2 class="section-title">WHY CHOOSE VELOCITY EXOTICS</h2>
+              <p class="section-subtitle">
+                Precision presentation and dedicated attention across every marquee listing.
+              </p>
+            </div>
+          </div>
+
+          <div class="pillars-grid">
+            <article class="pillar-card reveal">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <span class="pillar-index">01</span>
+              <h3 class="pillar-title">EXCLUSIVE COLLECTION</h3>
+              <p class="pillar-copy">Carefully selected extraordinary supercars.</p>
+            </article>
+
+            <article class="pillar-card reveal">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="9"></circle>
+                  <path d="M12 7v5l3 3"></path>
+                </svg>
+              </div>
+              <span class="pillar-index">02</span>
+              <h3 class="pillar-title">PREMIUM EXPERIENCE</h3>
+              <p class="pillar-copy">A refined and personalized automotive experience.</p>
+            </article>
+
+            <article class="pillar-card reveal">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <span class="pillar-index">03</span>
+              <h3 class="pillar-title">VEHICLE EXCELLENCE</h3>
+              <p class="pillar-copy">Explore detailed specifications and exceptional craftsmanship.</p>
+            </article>
+
+            <article class="pillar-card reveal">
+              <div class="pillar-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <span class="pillar-index">04</span>
+              <h3 class="pillar-title">PERSONAL ASSISTANCE</h3>
+              <p class="pillar-copy">Dedicated assistance for vehicle inquiries.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Interactive Car Comparison Section -->
+      <section class="section section-dark" id="compare">
+        <div class="container">
+          <div class="section-header reveal">
+            <div class="section-header-text">
+              <span class="section-kicker">Technical Side-by-Side</span>
+              <h2 class="section-title">COMPARE SUPERCARS</h2>
+              <p class="section-subtitle">
+                Select any two vehicles from the portfolio to compare verified engineering figures.
+              </p>
+            </div>
+            <button type="button" class="btn btn-subtle" id="swap-compare-btn">
+              Swap Vehicles
+            </button>
+          </div>
+
+          <div class="compare-panel reveal">
+            <div class="compare-selectors">
+              <div class="compare-selector-box">
+                <label for="compare-select-a" class="control-label">First Vehicle</label>
+                <select id="compare-select-a" class="form-select"></select>
+              </div>
+              <div class="compare-vs" aria-hidden="true">VS</div>
+              <div class="compare-selector-box">
+                <label for="compare-select-b" class="control-label">Second Vehicle</label>
+                <select id="compare-select-b" class="form-select"></select>
+              </div>
+            </div>
+
+            <div class="compare-table-wrap" id="compare-table-wrap"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. About Us Section -->
+      <section class="section section-charcoal" id="about">
+        <div class="container">
+          <div class="about-split reveal">
+            <div class="about-media-frame">
+              <img
+                src="img/showroom.jpg"
+                alt="Velocity Exotics minimalist dark travertine luxury supercar showroom gallery"
+                class="about-img"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+
+            <div class="about-editorial">
+              <span class="section-kicker">Velocity Exotics</span>
+              <h2 class="section-title">OUR PASSION. YOUR NEXT DRIVE.</h2>
+              <p class="about-lead">
+                VELOCITY EXOTICS is a destination for automotive enthusiasts who appreciate
+                extraordinary performance, sophisticated design, and the world's most remarkable
+                automobiles.
+              </p>
+              <p class="about-body">
+                Every machine showcased in our collection is presented with verified factory
+                engineering figures, clear indicative listing valuations, and high-resolution
+                studio documentation—allowing discerning collectors and drivers to examine each
+                silhouette, powertrain, and specification with complete clarity.
+              </p>
+              <div class="about-metrics">
+                <div class="about-metric">
+                  <span class="about-metric-value">12</span>
+                  <span class="about-metric-label">Curated Vehicles</span>
+                </div>
+                <div class="about-metric">
+                  <span class="about-metric-value">6</span>
+                  <span class="about-metric-label">Iconic Marques</span>
+                </div>
+                <div class="about-metric">
+                  <span class="about-metric-value">1,578 HP</span>
+                  <span class="about-metric-label">Peak Collection Output</span>
+                </div>
+              </div>
+              <div class="about-actions">
+                <a href="#inventory" class="btn btn-primary">VIEW THE COLLECTION</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. Contact Section -->
+      <section class="section section-dark" id="contact">
+        <div class="container">
+          <div class="contact-split reveal">
+            <div class="contact-info">
+              <span class="section-kicker">Private Concierge</span>
+              <h2 class="section-title">INQUIRE WITH US</h2>
+              <p class="contact-lead">
+                Interested in a specific vehicle or specification sheet? Connect with our concierge
+                directly by telephone, Instagram, or prepare your inquiry message below.
+              </p>
+
+              <div class="contact-channels">
+                <a href="tel:09087675142" class="contact-channel-card">
+                  <span class="channel-label">Telephone</span>
+                  <span class="channel-value">09087675142</span>
+                </a>
+
+                <a
+                  href="https://instagram.com/Madridsupercars"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-channel-card"
+                >
+                  <span class="channel-label">Instagram</span>
+                  <span class="channel-value">@Madridsupercars</span>
+                </a>
+              </div>
+
+              <p class="contact-disclaimer">
+                All displayed USD prices are indicative listing estimates for reference and vary by
+                regional specification, configuration, and market availability.
+              </p>
+            </div>
+
+            <div class="contact-form-card">
+              <form id="contact-form" novalidate>
+                <div class="form-row">
+                  <label for="contact-name" class="control-label">Full Name</label>
+                  <input
+                    type="text"
+                    id="contact-name"
+                    name="fullName"
+                    class="form-input"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                  <span class="field-error" id="error-name" role="alert"></span>
+                </div>
+
+                <div class="form-row">
+                  <label for="contact-email" class="control-label">Email Address</label>
+                  <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    class="form-input"
+                    placeholder="you@example.com"
+                    required
+                  />
+                  <span class="field-error" id="error-email" role="alert"></span>
+                </div>
+
+                <div class="form-row">
+                  <label for="contact-vehicle" class="control-label">Interested Vehicle</label>
+                  <select id="contact-vehicle" name="vehicle" class="form-select" required>
+                    <option value="General Collection Inquiry">General Collection Inquiry</option>
+                  </select>
+                  <span class="field-error" id="error-vehicle" role="alert"></span>
+                </div>
+
+                <div class="form-row">
+                  <label for="contact-message" class="control-label">Message</label>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="4"
+                    class="form-textarea"
+                    placeholder="Share your questions regarding specifications, availability, or private viewing..."
+                    required
+                  ></textarea>
+                  <span class="field-error" id="error-message" role="alert"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">SEND INQUIRY</button>
+
+                <div class="form-confirmation hidden" id="form-confirmation" role="status" aria-live="polite">
+                  <h3 class="confirmation-title">Inquiry Details Validated</h3>
+                  <p class="confirmation-body" id="confirmation-body"></p>
+                  <div class="confirmation-actions">
+                    <a href="tel:09087675142" class="btn btn-outline">Call 09087675142</a>
+                    <a
+                      href="https://instagram.com/Madridsupercars"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-subtle"
+                    >
+                      Message @Madridsupercars
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="brand-lockup footer-lockup">
+              <img
+                src="img/logo.png"
+                alt="Velocity Exotics Emblem"
+                class="brand-logo"
+                width="32"
+                height="30"
+              />
+              <span class="brand-wordmark">VELOCITY EXOTICS</span>
+            </a>
+            <p class="footer-tagline">WHERE PERFORMANCE MEETS PRESTIGE.</p>
+            <p class="footer-desc">
+              An international luxury supercar showcase presenting extraordinary engineering,
+              verified specifications, and timeless automotive craftsmanship.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Navigation</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#featured">Featured</a></li>
+              <li><a href="#inventory">Inventory</a></li>
+              <li><a href="#brands">Brands</a></li>
+              <li><a href="#compare">Compare</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Featured Marques</h3>
+            <ul class="footer-links">
+              <li><a href="#inventory" data-footer-brand="Ferrari">Ferrari</a></li>
+              <li><a href="#inventory" data-footer-brand="Lamborghini">Lamborghini</a></li>
+              <li><a href="#inventory" data-footer-brand="McLaren">McLaren</a></li>
+              <li><a href="#inventory" data-footer-brand="Bugatti">Bugatti</a></li>
+              <li><a href="#inventory" data-footer-brand="Porsche">Porsche</a></li>
+              <li><a href="#inventory" data-footer-brand="Aston Martin">Aston Martin</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-heading">Direct Contact</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="tel:09087675142">Phone: 09087675142</a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/Madridsupercars"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram: @Madridsupercars
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright-text">&copy; 2026 VELOCITY EXOTICS. All rights reserved.</p>
+          <p class="footer-note">Indicative listing details and factory engineering specifications.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Car Details Modal -->
+    <div
+      class="modal-backdrop hidden"
+      id="vehicle-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      aria-hidden="true"
+    >
+      <div class="modal-container" id="modal-container">
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close Details Modal">
+          CLOSE &times;
+        </button>
+
+        <div class="modal-grid">
+          <div class="modal-gallery">
+            <div class="modal-main-image-wrap">
+              <img
+                src=""
+                alt=""
+                id="modal-main-img"
+                class="modal-main-img"
+                referrerpolicy="no-referrer"
+              />
+              <span class="modal-gallery-counter" id="modal-gallery-counter">1 / 2</span>
+            </div>
+
+            <div class="modal-gallery-controls">
+              <button type="button" class="btn btn-subtle" id="modal-prev-btn">
+                &larr; PREVIOUS IMAGE
+              </button>
+              <div class="modal-thumbs" id="modal-thumbs"></div>
+              <button type="button" class="btn btn-subtle" id="modal-next-btn">
+                NEXT IMAGE &rarr;
+              </button>
+            </div>
+          </div>
+
+          <div class="modal-details">
+            <div class="modal-header-block">
+              <p class="modal-meta-line" id="modal-meta-line"></p>
+              <h2 class="modal-title" id="modal-title"></h2>
+              <div class="modal-price-block">
+                <span class="modal-price-label">Indicative Listing Price (USD)</span>
+                <span class="modal-price-value" id="modal-price"></span>
+              </div>
+            </div>
+
+            <p class="modal-description" id="modal-description"></p>
+
+            <div class="modal-specs-grid" id="modal-specs-grid"></div>
+
+            <div class="modal-actions">
+              <button type="button" class="btn btn-primary" id="modal-inquire-btn">
+                INQUIRE ABOUT THIS CAR
+              </button>
+              <button type="button" class="btn btn-outline" id="modal-favorite-btn">
+                ADD TO FAVORITES
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Favorites Slide-Over Drawer -->
+    <div class="drawer-backdrop hidden" id="favorites-drawer" aria-hidden="true">
+      <aside class="favorites-panel" role="dialog" aria-modal="true" aria-labelledby="favorites-drawer-title">
+        <div class="drawer-header">
+          <div>
+            <span class="section-kicker">Personal Shortlist</span>
+            <h2 class="drawer-title" id="favorites-drawer-title">SAVED FAVORITES</h2>
+          </div>
+          <button type="button" class="modal-close-btn drawer-close-btn" id="close-favorites-btn" aria-label="Close Favorites">
+            CLOSE &times;
+          </button>
+        </div>
+
+        <div class="drawer-body" id="favorites-list"></div>
+      </aside>
+    </div>
+
+    <!-- Back To Top Button -->
+    <button
+      type="button"
+      class="back-to-top hidden"
+      id="back-to-top"
+      aria-label="Back to top"
+    >
+      &uarr;
+    </button>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
